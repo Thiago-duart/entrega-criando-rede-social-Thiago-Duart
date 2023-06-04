@@ -1,0 +1,9 @@
+@import url(./reset.css);
+@import url(./global.css);
+@import url(./components.css );
+@import url(./header.css);
+@import url(./text.css);
+@import url(./posts.css);
+@import url(./suggestion.css);
+@import url(./dialog.css);
+@import url(./publish.css);

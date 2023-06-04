@@ -1,0 +1,70 @@
+.suggestion__container {
+    width: 90%;
+    margin: 5% auto;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.main__container{
+    margin-top: 100px;
+}
+.suggestion__content {
+    display: flex;
+    gap: 20px;
+    margin-top: 7%;
+}
+
+.suggestion__people{
+    width: 18.75rem;
+    gap: 20px;
+}
+.suggestion__people-modifier{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+} 
+.suggestion__people>button{
+    margin-top: 1.5rem;
+}
+
+
+@media  (min-width: 1000px) {
+    .suggestion__container {
+        width: 90%;
+        margin: 5% auto;
+        overflow-x: visible;
+        white-space: nowrap;
+    }
+    .main__container{
+        display: grid;
+        grid-template-columns: 2fr 1fr ;
+        padding: 0 5%;
+    }
+    .suggestion__container {
+        margin: 10% auto;
+        padding: 0 0 0 3rem;
+    }
+    .suggestion__content {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .suggestion__people {
+        display: flex;
+        margin-top: 1rem;
+      flex-direction: row; 
+      justify-content: space-between;
+    }
+    .suggestion__people>button{
+        margin-bottom: 35px
+    }
+    .suggestion__people-modifier{
+      flex-direction: row; 
+      gap: 1rem;
+      text-align: start;
+    }
+    .suggestion__people-modifier>div{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}

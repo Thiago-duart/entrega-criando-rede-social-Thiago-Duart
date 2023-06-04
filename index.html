@@ -1,23 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./src/styles/reset.css" />
-    <link rel="stylesheet" href="./src/styles/index.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- FONTE -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
+  <!-- CSS -->
 
-    <title>Criando rede social</title>
-  </head>
-  <body></body>
+  <link rel="stylesheet" href="./src/styles/index.css">
+
+  <!-- FONTE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <script type="module" src="./src/scripts/index.js" defer></script>
+  <title>Criando rede social</title>
+</head>
+
+<body>
+  <header>
+    <section class="header__container">
+      <img src="./src/assets/img/logo.svg" alt="">
+      <p class="header__text">Sair</p>
+    </section>
+  </header>
+  <main class="main__container">
+    <section class="publish__container">
+      <section class="publish__content">
+        <img class="people__img" src="./src/assets/img/user1.svg" alt="">
+        <div>
+          <p class="people__name">Samuel Persuhn</p>
+          <p class="people__description">Front end Engineer</p>
+        </div>
+      </section>
+      <form action="" class="publish__form">
+        <input class="input-text__defalt" type="text" id="inputTitle">
+        <textarea name="" id="textareaPost" class="input-textarea__defalt" required></textarea>
+        <div class="publish__button">
+          <button class="button__primary" id="btnSubmit">Postar</button>
+        </div>
+      </form>
+    </section>
+    <aside>
+      <section class="suggestion__container">
+        <h2 class="suggestion__title">Sugestões para você seguir</h2>
+        <ul class="suggestion__content">
+        </ul>
+      </section>
+    </aside>
+    <section class="publications__container">
+      <h2 class="publications__title">Posts</h2>
+      <ul class="posts__container">
+      </ul>
+    </section>
+  </main>
+
+</body>
+
 </html>

@@ -1,3 +1,4 @@
+
 export const users = [
   {
     id: 1,
@@ -42,6 +43,7 @@ export const posts = [
     img: "./src/assets/img/user2.svg",
     likes: 25
   },
+ 
   {
     id: 2,
     title:

@@ -1,0 +1,90 @@
+.input-text__defalt {
+    width: 89%;
+    height: 1.20rem;
+    border: none;
+    border: 1px solid var(--grey-0);
+    cursor: pointer;
+}
+
+.input-textarea__defalt {
+    width: 89%;
+    height: 6.20rem;
+    border: none;
+    border: 1px solid var(--grey-0);
+    resize: none;
+    cursor: pointer;
+}
+
+.input-text__defalt:placeholder-shown {
+    border: 1px solid var(--brand-1);
+
+}
+
+.input-textarea__defalt:focus {
+   
+    border: 1px solid var(--brand-1);
+}
+
+.button__primary,
+.button__grey1 {
+    width: 4.375rem;
+    height: 2.3rem;
+    border: none;
+    border-radius: 0.3125rem;
+    font-size: var(--text-size-3);
+    cursor: pointer;
+}
+
+.button__primary {
+    background-color: var(--brand-1);
+    color: var(--whiteFixed);
+}
+
+.button__primary:hover {
+    background-color: var(--brand-2);
+}
+
+.button__grey1 {
+    color: var(--whiteFixed);
+    background-color: var(--grey-1);
+}
+
+.button__grey1:hover {
+    background-color: var(--grey-0);
+}
+
+.button-white__fixed,
+.button-white__fixed-follow {
+    font-weight: var(--font-weigth-middle);
+    color: var(--grey-0);
+    background-color: var(--whiteFixed);
+    border: 1px solid var(--grey-0);
+    padding: 0 0.7rem;
+    height: 1.8rem;
+    cursor: pointer;
+}
+
+.button-white__fixed-follow {
+    border: none;
+    background-color: var(--brand-1);
+    color: var(--whiteFixed);
+}
+
+@media  (min-width: 1000px) {
+    .input-text__defalt {
+        width: 59%;
+        height: 2rem;
+        border: none;
+        border: 1px solid var(--grey-0);
+        cursor: pointer;
+    }
+    
+    .input-textarea__defalt {
+        width: 59%;
+        height: 7.20rem;
+        border: none;
+        border: 1px solid var(--grey-0);
+        resize: none;
+        cursor: pointer;
+    }
+}

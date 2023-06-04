@@ -1,0 +1,10 @@
+ .people__name, .suggestion__title,.publications__title{
+    font-size: var(--title-size-2);
+    font-weight: var(--font-weigth-middle);
+    color: var(--grey-0);
+ }
+ .people__description{
+    font-weight: var(--font-weigth-small);
+    font-size: var(--text-size-3);
+    color: var(--grey-2);
+ }

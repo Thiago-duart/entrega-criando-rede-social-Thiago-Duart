@@ -1,0 +1,28 @@
+
+.dialog__container{
+    width: 70%;
+    padding: 3rem 2rem;
+    border: none;
+    border-radius: 1rem;
+   
+}
+dialog::backdrop{
+    backdrop-filter: blur(1px);
+}
+.close-modal{
+    float: right;
+    cursor: pointer;
+   
+}
+
+
+@media  (min-width: 1000px) {
+
+    .dialog__container{
+        width: 40%;
+        padding: 3rem 2rem;
+        border: none;
+        border-radius: 1rem;
+    }
+}
+

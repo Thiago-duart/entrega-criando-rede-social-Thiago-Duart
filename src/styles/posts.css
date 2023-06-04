@@ -1,0 +1,88 @@
+.publications__container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    gap: 30%;
+}
+
+.people__post {
+    padding: 50px 0 25px 0;
+}
+
+.people__info {
+    display: flex;
+    align-items: center;
+    gap: 7%;
+}
+
+.people__title {
+    margin-top: 5%;
+    font-size: var(--title-size-2);
+    font-weight: var(--font-weigth-middle);
+    line-height: var(--line-height-title-2);
+    color: var(--grey-0);
+}
+
+.people__text {
+    margin-top: 5%;
+    font-size: var(--text-size-1);
+    font-weight: var(--font-weigth-small);
+    line-height: var(--line-height-text-2);
+    color: var(--grey-2);
+}
+
+.people__hero {
+    display: flex;
+    margin-top: 5%;
+    gap: 7%;
+}
+
+.people__like {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+.people__like-config {
+    color: var(--grey-3);
+    width: 1.8em;
+    height: 1.8em;
+    cursor: pointer;
+}
+
+.people__like-on {
+    color: var(--like)
+}
+
+.people__img {
+    width: 50px;
+}
+@media (min-width: 1000px) {
+
+    .publications__container{
+        padding: 0 35% 0 0;
+    }
+    .people__title, .publications__title {
+        font-size: var(--title-size-1);
+        font-weight: var(--font-weigth-large);
+        line-height: var(--line-height-title-1);
+
+    }
+    .people__text {
+        margin-top: 5%;
+        font-size: var(--text-size-1);
+        font-weight: var(--font-weigth-small);
+        line-height: var(--line-height-text-2);
+        color: var(--grey-2);
+        
+    }
+    .people__info {
+        gap: 3%;
+    }
+}
+@media (min-width: 1000px)and (max-width: 1440px) {
+    .publications__container{
+        padding: 0 15% 0 0;
+    }
+}

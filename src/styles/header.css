@@ -1,0 +1,11 @@
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--grey-1);
+    padding: 1.25rem 1.45rem 1.25rem 2.5rem;
+    color: var(--whiteFixed);
+    position: fixed;
+    top: 0;
+    width: 98.5vw;
+}
