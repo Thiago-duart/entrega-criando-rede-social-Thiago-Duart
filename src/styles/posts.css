@@ -86,6 +86,7 @@
     .publications__container{
         .people__post {
             padding: 30px 0px 25px 0;
+            width: 130%;
         }
     }
 }
