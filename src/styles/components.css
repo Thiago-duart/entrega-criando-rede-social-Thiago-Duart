@@ -21,9 +21,8 @@
 }
 
 .input-textarea__defalt:focus {
-   
     border: 1px solid var(--brand-1);
-}
+  }
 
 .button__primary,
 .button__grey1 {
@@ -72,7 +71,7 @@
 
 @media  (min-width: 1000px) {
     .input-text__defalt {
-        width: 59%;
+        width: 80%;
         height: 2rem;
         border: none;
         border: 1px solid var(--grey-0);
@@ -80,8 +79,8 @@
     }
     
     .input-textarea__defalt {
-        width: 59%;
-        height: 7.20rem;
+        width: 80%;
+        height: 8.20rem;
         border: none;
         border: 1px solid var(--grey-0);
         resize: none;

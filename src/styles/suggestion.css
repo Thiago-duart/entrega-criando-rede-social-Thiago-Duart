@@ -29,30 +29,28 @@
 
 @media  (min-width: 1000px) {
     .suggestion__container {
-        width: 90%;
-        margin: 5% auto;
+        width: 100%;
         overflow-x: visible;
         white-space: nowrap;
     }
     .main__container{
         display: grid;
-        grid-template-columns: 2fr 1fr ;
-        padding: 0 5%;
+        grid-template-columns: 1.5fr 1fr ;
+        padding: 0 10%;
     }
     .suggestion__container {
-        margin: 10% auto;
-        padding: 0 0 0 3rem;
+        padding: 10% 0 0 3rem;
     }
     .suggestion__content {
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        gap: 1rem;
     }
     .suggestion__people {
         display: flex;
-        margin-top: 1rem;
-      flex-direction: row; 
-      justify-content: space-between;
+        flex-direction: row; 
+        justify-content: space-between;
+        width: 70%;
     }
     .suggestion__people>button{
         margin-bottom: 35px

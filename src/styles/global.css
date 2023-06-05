@@ -1,4 +1,11 @@
+*{
+    font-family: var(--font-family);
+}
+
 :root{
+
+    --font-family: 'inter', sans-serif;
+
     --brand-1: #4263EB;
     --brand-2: #364FC7;
 

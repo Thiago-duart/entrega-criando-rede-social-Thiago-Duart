@@ -3,11 +3,11 @@
     flex-direction: column;
     width: 90%;
     margin: 0 auto;
-    gap: 30%;
 }
 
 .people__post {
-    padding: 50px 0 25px 0;
+    padding: 30px 0 25px 0;
+ 
 }
 
 .people__info {
@@ -59,10 +59,11 @@
     width: 50px;
 }
 @media (min-width: 1000px) {
+    .people__post {
+    padding: 30px 100px 25px 0;
+ 
+}
 
-    .publications__container{
-        padding: 0 35% 0 0;
-    }
     .people__title, .publications__title {
         font-size: var(--title-size-1);
         font-weight: var(--font-weigth-large);
@@ -73,7 +74,7 @@
         margin-top: 5%;
         font-size: var(--text-size-1);
         font-weight: var(--font-weigth-small);
-        line-height: var(--line-height-text-2);
+        line-height: var(--line-height-text-1);
         color: var(--grey-2);
         
     }
